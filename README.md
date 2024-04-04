@@ -8,6 +8,6 @@ pip install -r requirements.txt
 ```
 2. Запустить скрипт, передав путь к претренированной модели и путь к датасету (названия колонок должны совпадать с тренировочным датасетом).
 ```
-python script.py --model_path='./custom_top_best_model' --dataset_path='./data.csv'
+python script.py --dataset_path='./data.csv'
 ```
 3. Результаты выведутся в терминал, а также сохранятся в файл **results.json** в поле **scores**.
